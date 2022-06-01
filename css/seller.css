@@ -1,0 +1,151 @@
+.address-page {
+  margin-left: 40%;
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+.add-product-seller {
+  background-color: #97c251;
+  border: 0;
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 100vh;
+  height: 44px;
+  cursor: pointer;
+  width: 250px;
+  margin-bottom: 15px;
+  margin-left: 70%;
+}
+.seller-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-product {
+  width: 50%;
+  padding: 0 30px 45px;
+}
+.image-product-seller img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+img {
+  cursor: pointer;
+}
+.seller-product-details {
+  position: relative;
+}
+.seller-product-edit-delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.seller-product-title {
+  margin: 10px 0 20px;
+}
+.seller-product-meta {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #8a8a8a;
+  padding-bottom: 6px;
+  font-size: 14px;
+}
+.seller-product-description {
+  padding-top: 6px;
+  font-size: 15px;
+}
+
+.add-form-container {
+  text-align: center;
+  width: 60vw;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: none;
+}
+.add-form-container.active {
+  display: inline;
+}
+.content-hider {
+  width: 100vw;
+  height: 100vh;
+  background-color: #060606;
+  opacity: 41%;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content-hider.active {
+  display: block;
+}
+.fa-times {
+  float: right;
+}
+.form-title {
+  clear: right;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.add-form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-left: 5%;
+}
+.add-form label {
+  align-self: flex-start;
+  margin: 5px 0;
+}
+.add-form input {
+  background-color: #dddddd;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 70%;
+  padding-left: 10px;
+}
+.label-container {
+  width: 90%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#details {
+  height: 60px;
+}
+.add-form select {
+  height: 30px;
+  outline: none;
+  width: 70%;
+}
+.add-form-btns {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.add-form-btns button {
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+.cancel-button {
+  background-color: #cf1515;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.save-button {
+  background-color: #dddddd;
+  font-size: 20px;
+  font-weight: bold;
+}

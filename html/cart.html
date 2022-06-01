@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Google Fonts (Poppins) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Main CSS File -->
+		<link rel="stylesheet" href="../css/global.css" />
+		<title>OGANI</title>
+	</head>
+	<body>
+
+		<header>
+			<div class="container">
+				<div class="logo">
+					<a href="#"><img src="../assets/images/logo.png" alt="Logo" /></a>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#" class="active">Home</a></li>
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Pages</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<div class="nav-side">
+						<div class="love-icon"><i class="fas fa-heart"></i></div>
+						<a href="./cart.html">
+							<div class="cart-icon">
+								<i class="fas fa-shopping-cart"></i></div
+						></a>
+						<div class="bar"><i class="fas fa-bars"></i></div>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!--cart items-->
+
+		<div class="cart-page">
+
+			<div class="total-price">
+					<button class="total-price-place">Total</button>
+				<button class="total-price-amount">$140</button>
+			</div>
+
+			<table class="table-cart-items">
+				<tr>
+					<th class="cart-table-head">Product</th>
+					<th class="cart-table-head">Quantity</th>
+					<th class="cart-table-head">Price</th>
+				</tr>
+				<tr>
+					<td class="cart-table-body">
+
+						<div class="cart-info">
+							<img class="cart-item-img" src="../assets/images/laptop.jpg">
+						<div>
+							<p>HP Laptop</p>
+							<small>Price: $30</small>
+							<br>
+							<a class="delete-cart-item" href="">Delete</a>
+						</div>
+					</div>
+
+					</td>
+
+					<td class="cart-table-body">
+						<input class="quantity" type="number" value="1">
+					</td>
+					<td class="cart-table-body">$30</td>
+				</tr>
+				<tr>
+					<td class="cart-table-body">
+
+						<div class="cart-info">
+							<img class="cart-item-img" src="../assets/images/hamburger.jpeg">
+						<div>
+							<p>Hamburger</p>
+							<small>Price: $100</small>
+							<br>
+							<a class="delete-cart-item" href="">Delete</a>
+						</div>
+					</div>
+
+					</td>
+
+					<td class="cart-table-body">
+						<input class="quantity" type="number" value="1">
+					</td>
+					<td class="cart-table-body">$100</td>
+				</tr>
+				<tr>
+					<td class="cart-table-body">
+
+						<div class="cart-info">
+							<img class="cart-item-img" src="../assets/images/ball.jpeg">
+						<div>
+							<p>Ball</p>
+							<small>Price: $10</small>
+							<br>
+							<a class="delete-cart-item" href="">Delete</a>
+						</div>
+					</div> 
+
+					</td>
+
+					<td class="cart-table-body">
+						<input class="quantity" type="number" value="1">
+					</td>
+					<td class="cart-table-body">$10</td>
+				</tr>
+			</table>
+
+		</div>
+
+		<footer>
+			<!-- First Section -->
+			<div>
+					<a href="home.html">
+							<img src="data:image/webp;base64,UklGRpgDAABXRUJQVlA4TIwDAAAvdkAMEO/BJpJkK72vXvT4ZqS4w78Aam04jiRJarJ3X/C6wSD8N0lqto0kSak5fjws8o+QCI5hE9m2E36dOGS6bAJrWKJCBH0SkBQ86JkfCJ731Wu9DYoxhk1iYOGSWLi2AMTIUCbp2vbvvU4Zlu97fkrCV1AqChChRlVJEpY17VzODKoiVZlcTPof1Zj/kOHNnMe9fc+x9IOw1RQzNUVBYaC8NAIVKIrgiYj6/3UEbdu22tjRVkQIwcY5lHHsfHMOpv//w84phDxab/0Q0f8JQOGPP35D8ck1dvJ7Sp+/Fpw/57Od+JFSSh+/Kye3OeebPUnpDYCr55xzft6JL1p6i5usn+/Du5TSp5RS+vPpyOU+fEopfTyklNK/Oef7nPPVPiT5TvyVc77bj4NySCm9vs93jznni314LdLrlNL7+6ernHM+2Yfvyivl+mfO+RE7eRCvDym9ur7OOeeLvfhdvH+f0t+XOef8gN38Jl6l9xc55/xwuh/4fkjpx4d/cs755hQ72VtHki9edqfnl+enKO8nF0hycaZvyhaqfRHVqcSQpFMMZVdiAgt9h/LGBBa7okjdVmD8JdqFK21R57mybDoSaiy/QgxcbQsGri7zR9hXoNmuWVhxOjLwuHPOrYokGYStEdrNLNWlB9CaoLBT2qC5HmrTT7ZkErMINei26qha6DEoTnFUB1QOohMcarDfyCoLjvcKI4CO6oDKPUl6ODGvCSI021DtCuAUA8AqM2pbMWEUbFZMgSTtJp2yoHRQHICgxGpBdGiVYYUZBbstjDIVRSUAkdKj9kCSAYAX8xo44beYlLEICoFOcQpLj8zCApgEmzVR0GzglK6OUUythnIAEJVhDYxg/O8ZlAYAgnCr4IWrNyvDFraWEzOkFWxXdYJjNaOYolbxQKc4xUhf0lKOSq+MqzCJ0NQalKVoUGYgKmyE6kpGpXxZ1wSSnGu1CmOJU0YAQTF1lgpsV6EXdJWwKK6gp9oAsEpoa7SsOa7DLNQag0J7JAbFAkBUuLQVpipLhTZsgUWh6wG0hmpoBazCYFrRLgVe6Y57wXYdxk1iUFYOUBuvkPTOeeoAIuWM45MyVYDbAl2FAUdjOFIMYFLGgqj4GnETxLAiDChs3boAIChtAbxgrACzCRpbZFuUD74smAboKReUWmWq0fhNgGacPUnvxhbro3FeLM50kFYxRb3ia6Db6H8TAQ=="
+									alt="Error">
+					</a>
+					<ul>
+							<li>Address: 60-49 Road 11378 New York
+							</li>
+							<li>Phone: +65 11.188.888
+							</li>
+							<li>Email: hello@colorlib.com
+							</li>
+					</ul>
+			</div>
+			<!-- Second Section -->
+			<div class="sections-pad">
+					<h4>Useful Links</h4>
+					<ul>
+							<li>About Us</li>
+							<li>Our services</li>
+							<li>Secure Shopping</li>
+							<li>Delivery information</li>
+							<li>Projects</li>
+							<li>Privacy policy</li>
+					</ul>
+			</div>
+			<!-- Third Section -->
+			<div class="sections-pad">
+					<h4>Join Our Newsletter Now</h4>
+					<small>Get E-mail updates about our latest shop and special offers.</small>
+					<div class="email-input">
+							<input type="text" placeholder="Enter your mail">
+							<button>Subscibe</button>
+					</div>
+			</div>
+	</footer>
+
+		<script src="../js/logic.js"></script>
+		<script src="../js/dom.js"></script>
+		<script src="../js/data.js"></script>
+	</body>
+</html>

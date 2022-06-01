@@ -1,0 +1,22 @@
+{
+	"name": "ogani-ecommerce-app-t3",
+	"version": "1.0.0",
+	"description": "Buy any product you want!",
+	"main": "logic.js",
+	"scripts": {
+		"test": "jest --watchAll"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GSG-G11/OGANI-ecommerce-app-t3.git"
+	},
+	"author": "Zaher, Hani, Yosra, Khalid",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/GSG-G11/OGANI-ecommerce-app-t3/issues"
+	},
+	"homepage": "https://github.com/GSG-G11/OGANI-ecommerce-app-t3#readme",
+	"devDependencies": {
+		"jest": "^27.4.7"
+	}
+}
